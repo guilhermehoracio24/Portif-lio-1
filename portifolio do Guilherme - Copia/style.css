@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+}
+nav {
+  background-color: #090909;
+  display: flex;
+  gap: 25px;
+  padding: 15px;
+  font-family: IBM Plex Mono;
+  align-items: center;
+}
+a {
+  color: #e8f1e8;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu {
+  font-family: Rubik Broken Fax;
+  color: #41c12a;
+  text-decoration: none;
+  font-size: 100px;
+  padding-left: 30px;
+}
+.falecomigo {
+  color: #090909;
+  background-color: #41c12a;
+  background-image: linear-gradient(170deg, #41c12a, #268c14);
+  padding: 10px 20px;
+  border-radius: 9px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.falecomigo:hover {
+  color: #41c12a;
+  background-color: #090909;
+  background-image: linear-gradient(170deg, #090909);
+  border: 4px solid #41c12a;
+  padding: 10px 20px;
+  border-radius: 9px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.projetos {
+  padding-left: 850px;
+  transition: 0.3s;
+}
+.projetos:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+.titulo {
+  color: #e8f1e8;
+  font-family: IBM Plex Mono;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 300px;
+}
+.titulodois {
+  text-align: center;
+  font-size: 92px;
+  font-family: Rubik Broken Fax;
+  color: #e8f1e8;
+}
+main {
+  height: 499px;
+  background-image: url(/Group\ 3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pri {
+  background-color: #222522;
+  padding: 70px;
+  line-height: 33px;
+}
+h1 {
+  color: #d0e0d0;
+  font-family: IBM Plex Mono;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+span {
+  color: #41c12a;
+  font-family: IBM Plex Mono;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 10px;
+}
+p {
+  color: #b3c2b3;
+  font-family: IBM Plex Sans;
+  font-size: 20px;
+  text-indent: 1rem;
+}
+ul {
+  color: #d0e0d0;
+  font-family: IBM Plex Mono;
+  margin-bottom: 20px;
+}
+li {
+  padding: 6px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: #41c12a;
+}
+.seg {
+  background-color: #090909;
+  padding: 70px;
+}
+.tri {
+  display: grid;
+  gap: 90px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #222522;
+  padding: 70px;
+}
+ul li::marker {
+  color: #41c12a;
+}
+.qualifi {
+  transition: 0.3s;
+}
+.qualifi:hover {
+  text-decoration: underline;
+}
+.falecomigodois {
+  margin: 30px;
+  color: #090909;
+  background-color: #41c12a;
+  background-image: linear-gradient(170deg, #41c12a, #268c14);
+  padding: 10px 20px;
+  border-radius: 9px;
+  font-family: IBM Plex Mono;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.falecomigodois:hover {
+  font-family: IBM Plex Mono;
+  color: #41c12a;
+  background-color: #090909;
+  background-image: linear-gradient(170deg, #090909);
+  border: 4px solid #41c12a;
+  padding: 10px 20px;
+  border-radius: 9px;
+  font-weight: 600;
+}
